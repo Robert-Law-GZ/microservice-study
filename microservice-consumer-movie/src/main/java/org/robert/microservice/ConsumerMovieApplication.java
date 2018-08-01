@@ -1,4 +1,4 @@
-package org.robert.microservice.user;
+package org.robert.microservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

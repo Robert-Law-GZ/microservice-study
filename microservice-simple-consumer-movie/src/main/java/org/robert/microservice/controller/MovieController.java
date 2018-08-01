@@ -1,6 +1,6 @@
-package org.robert.microservice.user.controller;
+package org.robert.microservice.controller;
 
-import org.robert.microservice.user.entity.User;
+import org.robert.microservice.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;

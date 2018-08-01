@@ -1,4 +1,4 @@
-package org.robert.microservice.user.entity;
+package org.robert.microservice.entity;
 
 import java.math.BigDecimal;
 
