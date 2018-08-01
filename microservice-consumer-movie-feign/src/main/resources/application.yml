@@ -17,3 +17,9 @@ eureka:
   instance:
     healthcheck:
       enabled: true
+
+#开启断路监控
+feign:
+  hystrix:
+    enabled: true
+
