@@ -2,12 +2,18 @@ spring:
   application:
     name: microservice-discovery-eureka-ha
 
+#使用Basic 安全校验
 security:
   basic:
     enabled: true
   user:
     password: password123
     name: user
+
+#开启自我保护模式
+eureka:
+  server:
+    enable-self-preservation: true
 
 ---
 spring:
