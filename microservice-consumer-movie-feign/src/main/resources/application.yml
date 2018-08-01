@@ -7,6 +7,11 @@ user:
 spring:
   application:
     name: microservice-consumer-movie
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 
 eureka:
   client:
@@ -22,4 +27,5 @@ eureka:
 feign:
   hystrix:
     enabled: true
+
 
